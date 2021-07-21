@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  /* a. Create a class .balloon with: width, height, border-radius, and position: absolute
+b. Create classes balloon1, balloon2 with: background color, left (so they don’t be on top of each other) */
+.baloon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background:brown;
+}  
+
+.baloon1{
+    background-color:rgb(9, 95, 13);
+    left: 100px;
+    
+}
+
+.baloon2{
+    background-color:blueviolet;
+    left: 600x;
+    
+}
